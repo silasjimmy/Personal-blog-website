@@ -69,6 +69,11 @@
   margin: 1em 0;
 }
 
+.blog > .container > .content > p {
+  text-align: justify;
+  font-weight: 300;
+}
+
 .blog > .container > .content > .section > h3 {
   font-size: 1.5rem;
   margin: 0;
