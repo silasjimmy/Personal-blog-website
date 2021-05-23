@@ -3,30 +3,136 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- materializecss framework -->
+    <link rel="stylesheet" href="css/materialize.min.css">
+
+    <!-- Google icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Local stylesheets -->
+    <link rel="stylesheet" href="css/main.css">
     <title>Blog site</title>
   </head>
   <body>
-    <div class="main">
-      <!-- Header -->
-      <header>
-        Blog site.
-      </header>
+    <div class="blog">
+      <div class="container">
+        <header>
+          <h1>Programming 101</h1>
+          <span>Published on May 23<sup>rd</sup> 2021</span>
+        </header>
 
-      <!-- Author information -->
-      <div class="author-info">
-        <img class="author-avatar" src="images/avatars/author-1.jpg" alt="Blog post author avatar">
-        <h3>Name</h3>
-        <h3>Title</h3>
-        <h3>Current company/school</h3>
-        <p>Short bio about the author</p>
-      </div>
+        <!-- Blog's author information -->
+        <div class="author">
+          <div class="description">
+            <img class="circle" src="images/avatars/author1.jpg" alt="Author image">
+            <div class="caption">
+              <h2>Silas Jimmy</h2>
+              <h3>Python programmer, SmartWeb solutions</h3>
+            </div>
+          </div>
 
-      <!-- Social sharing -->
-      <div class="social-sharing">
-        <a href="" class="">Twitter</a>
-        <a href="" class="">Facebook</a>
-        <a href="" class="">Linkedin</a>
+          <!-- Author's bio -->
+          <p>
+            Silas Jimmy is a python programmer with 3 years experience in the field.
+            He is a web developer and a machine learning engineer by profession. He
+            likes watching films, listening to music and cooking.
+          </p>
+        </div>
+
+        <!-- Blog's image -->
+        <img class="image" src="images/blog-posts/post1.jpg" alt="Blog's image">
+
+        <!-- Blog's content -->
+        <div class="content">
+          <div class="section">
+            <h3>Introduction</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+              ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+
+          <div class="section">
+            <h3>About programming</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+              ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              <ol>
+                <li>Something to do</li>
+                <li>Another thing to do</li>
+                <li>For this do this.</li>
+                <li>Finally do this</li>
+              </ol>
+            </p>
+          </div>
+
+          <div class="section">
+            <h3>Web development</h3>
+            <p>
+              Lorem <strong>web design</strong> dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim <strong>front end development</strong>, quis nostrud exercitation
+              ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+              ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+
+          <div class="section">
+            <h3>Conclusion</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+              ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <blockquote>
+              <i>With more power comes more responsibility.</i>
+              <span>- Peter Parker, Spiderman.</span>
+            </blockquote>
+          </div>
+        </div>
       </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+      <div class="container">
+        <!-- Links -->
+        <div class="links">
+          <div class="blog-links">
+            <h3 class="white-text">Blog</h3>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="home.html">Home</a></li>
+              <li><a class="grey-text text-lighten-3" href="home.html">About</a></li>
+              <li><a class="grey-text text-lighten-3" href="home.html">Posts</a></li>
+            </ul>
+          </div>
+          <div class="social-links">
+            <h3 class="white-text">Social</h3>
+            <ul>
+              <li><a class="grey-text text-lighten-3" target="_blank" href="https://www.linkedin.com/in/silas-jimmy-2b7543150/">Linkedin</a></li>
+              <li><a class="grey-text text-lighten-3" target="_blank" href="https://twitter.com/silasjimmy17">Twitter</a></li>
+              <li><a class="grey-text text-lighten-3" target="_blank" href="https://www.instagram.com/silasjimmy17/">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2021 Copyright
+        <a class="grey-text text-lighten-4 right" href="#!">All rights reserved.</a>
+        </div>
+      </div>
+      </footer>
   </body>
 </html>

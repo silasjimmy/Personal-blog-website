@@ -1,4 +1,7 @@
-@import "./blog-post.css";
+@import "./posts.css";
+@import "./blog.css";
+@import "./footer.css";
+@import "./responsive.css";
 
 img {
   object-fit: cover;
