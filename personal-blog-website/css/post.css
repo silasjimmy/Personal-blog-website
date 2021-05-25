@@ -23,6 +23,7 @@
 .post > .caption > h2,
 .post > .caption > h3 {
   margin: 0.2em;
+  color: #0091ea;
 }
 
 .post > .caption > h2 {

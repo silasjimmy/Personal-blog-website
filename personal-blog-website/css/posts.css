@@ -29,3 +29,8 @@
   text-align: center;
   margin: 2em;
 }
+
+.home > .view-more > .btn {
+  text-transform: capitalize;
+  background-color: #ee6e73;
+}
