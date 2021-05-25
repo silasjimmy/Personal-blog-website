@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- materializecss framework -->
+    <link rel="stylesheet" href="css/materialize.min.css">
+
+    <!-- Google icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Local stylesheets -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Blog | Home</title>
+  </head>
+  <body class="grey lighten-4">
+    <!-- Container for the whole document -->
+    <div class="home" role="main">
+
+      <!-- Navbar -->
+      <div class="navbar-fixed">
+        <nav class="grey darken-4">
+          <div class="nav-wrapper">
+            <a href="home.html" class="brand-logo center">Blog</a>
+            <form class="right hide-on-med-and-down">
+              <div class="input-field">
+                <input placeholder="Search for posts..." id="search" type="search" required>
+                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                <i class="material-icons">close</i>
+              </div>
+            </form>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Header -->
+      <header>
+        <h1>Recent posts...</h1>
+      </header>
+
+      <!-- Blog posts -->
+      <div class="container">
+        <div class="posts">
+
+          <!-- Each card is enclosed in a link tag to act as a button to its blog post. -->
+          <a class="card-panel hoverable" href="posts/post1.html">
+            <div class="post">
+              <img src="images/blog-posts/post1.jpg" alt="Post 1 image">
+              <div class="caption">
+                <h2 class="grey-text text-darken-4">Programming 101</h2>
+                <h3 class="truncate grey-text text-darken-2">
+                  Programming is the process of creating a set of instructions
+                </h3>
+              </div>
+            </div>
+          </a>
+
+          <a class="card-panel hoverable" href="posts/post1.html">
+            <div class="post">
+              <img src="images/blog-posts/post2.jpg" alt="Post 2 image">
+              <div class="caption">
+                <h2 class="grey-text text-darken-4">Benefits of surfing</h2>
+                <h3 class="truncate grey-text text-darken-2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                </h3>
+              </div>
+            </div>
+          </a>
+
+          <a class="card-panel hoverable" href="posts/post1.html">
+            <div class="post">
+              <img src="images/blog-posts/post3.jpg" alt="Post 3 image">
+              <div class="caption">
+                <h2 class="grey-text text-darken-4">Healthy diets</h2>
+                <h3 class="truncate grey-text text-darken-2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                </h3>
+              </div>
+            </div>
+          </a>
+
+          <a class="card-panel hoverable" href="posts/post1.html">
+            <div class="post">
+              <img src="images/blog-posts/post4.jpg" alt="Post 4 image">
+              <div class="caption">
+                <h2 class="grey-text text-darken-4">Thinking loud</h2>
+                <h3 class="truncate grey-text text-darken-2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                </h3>
+              </div>
+            </div>
+          </a>
+
+          <a class="card-panel hoverable" href="posts/post1.html">
+            <div class="post">
+              <img src="images/blog-posts/post5.jpg" alt="Post 5 image">
+              <div class="caption">
+                <h2 class="grey-text text-darken-4">Happy moments</h2>
+                <h3 class="truncate grey-text text-darken-2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                </h3>
+              </div>
+            </div>
+          </a>
+
+          <a class="card-panel hoverable" href="posts/post1.html">
+            <div class="post">
+              <img src="images/blog-posts/post6.jpg" alt="Post 6 image">
+              <div class="caption">
+                <h2 class="grey-text text-darken-4">History and art</h2>
+                <h3 class="truncate grey-text text-darken-2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                </h3>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- View more button currently does nothing. Functionality to be added
+      using JavaScript or add another page with all the blog post cards. -->
+      <section class="view-more">
+        <button class="btn grey darken-4" href="#">view more</button>
+      </section>
+
+      <!-- Footer -->
+      <footer class="page-footer grey darken-4">
+        <div class="container">
+
+          <!-- Links -->
+          <div class="links">
+            <div class="blog-links">
+              <h3 class="white-text">Blog</h3>
+              <ul>
+                <li><a class="grey-text text-lighten-4" href="home.html">Home</a></li>
+                <li><a class="grey-text text-lighten-4" href="home.html">Posts</a></li>
+                <li><a class="grey-text text-lighten-4" href="https://silasjimmy.github.io/projects/personal-blog-website/home.html">Project in GitHub</a></li>
+              </ul>
+            </div>
+
+            <div class="social-links">
+              <h3 class="white-text">Social</h3>
+              <ul>
+                <li><a class="grey-text text-lighten-4" target="_blank" href="https://www.linkedin.com/in/silas-jimmy-2b7543150/">Linkedin</a></li>
+                <li><a class="grey-text text-lighten-4" target="_blank" href="https://twitter.com/silasjimmy17">Twitter</a></li>
+                <!-- Redirects to my Instagram account because i don't have a facebook account currently. -->
+                <li><a class="grey-text text-lighten-4" target="_blank" href="https://www.instagram.com/silasjimmy17/">Facebook</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-copyright black">
+          <div class="container">
+          © 2021 Copyright
+          <a class="grey-text text-lighten-4 right" href="#!">All rights reserved.</a>
+          </div>
+        </div>
+        </footer>
+    </div>
+  </body>
+</html>

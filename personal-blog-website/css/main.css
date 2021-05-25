@@ -1,0 +1,12 @@
+@import "./posts.css";
+@import "./blog.css";
+@import "./footer.css";
+@import "./responsive.css";
+
+img {
+  object-fit: cover;
+}
+
+blockquote {
+  border-left: 5px solid #212121;
+}

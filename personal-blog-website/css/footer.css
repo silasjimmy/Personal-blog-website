@@ -1,0 +1,25 @@
+.page-footer > .container {
+  text-align: center;
+}
+
+.page-footer > .container > .navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.page-footer > .container > .links {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.page-footer > .container > .links > div > h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.page-footer > .container > .links a {
+  font-weight: 300;
+}

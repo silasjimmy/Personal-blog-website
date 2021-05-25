@@ -1,0 +1,92 @@
+/* Blog post page */
+.blog {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog > .container > header {
+  text-align: center;
+}
+
+.blog > .container > header > h1 {
+  font-size: 2.5rem;
+  margin: 1em 0 0.5em;
+  font-weight: 500;
+}
+
+.blog > .container > header > span {
+  margin: 0.1em 0;
+  font-size: 1rem;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.blog > .container > .author {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0 0 0;
+}
+
+.blog > .container > .author > .description {
+  display: flex;
+  flex-direction: row;
+  margin: 1em 0;
+}
+
+.blog > .container > .author > .description > img {
+  width: 60px;
+  height: 60px;
+}
+
+.blog > .container > .author > .description > .caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0 0 1em;
+}
+
+.blog > .container > .author > .description > .caption > h2 {
+  margin: 0.1em 0;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.blog > .container > .author > .description > .caption > h3 {
+  margin: 0.1em 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.blog > .container > .author > p {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1rem;
+  margin: 0.5em 2em;
+}
+
+.blog > .container > .image {
+  width: 100%;
+  height: 200px;
+  margin: 1em 0;
+}
+
+.blog > .container > .content > p {
+  text-align: justify;
+  font-weight: 300;
+}
+
+.blog > .container > .content > .section > h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  text-decoration: underline;
+}
+
+.blog > .container > .content > .section > p {
+  margin: 1em 0;
+  text-align: justify;
+  font-weight: 300;
+}
+
+.blog > .container > .content > .section > p > ol {
+  font-weight: 300;
+}

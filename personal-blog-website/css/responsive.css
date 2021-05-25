@@ -1,0 +1,55 @@
+/* Posts container */
+@media (min-width: 450px) and (max-width: 800px) {
+  .home > .container > .posts {
+    grid-template-columns: repeat(2, calc(calc(100% - 1em) / 2));
+  }
+
+  .page-footer > .container > .links {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 100%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1400px) {
+  .home > .container {
+    width: 70%;
+  }
+
+  .home > .container > .posts {
+    grid-template-columns: repeat(3, calc(calc(100% - 2em) / 3));
+  }
+
+  .page-footer > .container > .links {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 100%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .home > .container > .posts {
+    grid-template-columns: repeat(4, calc(calc(100% - 3em) / 4));
+  }
+
+  .page-footer > .container > .links {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 100%;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 900px) {
+  .blog > .container {
+    width: 70%;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+  .blog > .container {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .blog > .container {
+    width: 50%;
+  }
+}
